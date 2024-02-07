@@ -22,7 +22,7 @@ export default function Header() {
               <P className="font-extrabold">@ Ledger</P>
             </div>
           </Flex>
-          <Image height={50} src={Logo} alt="" />
+          <Image height={60} src={Logo} alt="" />
         </Flex>
 
         <Separator />
