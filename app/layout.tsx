@@ -9,8 +9,10 @@ import { cn } from "@/utils/cn";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Title.",
-  description: "Description.",
+  title: {
+    template: "%s | Maxime",
+    default: "Maxime",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +23,8 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning className={`${inter.variable}`}>
       <meta name="format-detection" content="telephone=no" />
-      <body className={cn("font-inter flex min-h-screen flex-col antialiased")}>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <body className={cn("flex min-h-screen flex-col font-inter antialiased")}>
         <Providers.QueryProvider>
           <Providers.ThemeProvider>
             <Navbar />

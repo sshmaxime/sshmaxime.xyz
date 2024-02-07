@@ -3,7 +3,7 @@ import Box from "@/components/system/box";
 export default function Dashboard() {
   return (
     <Box className="prose lg:prose-lg">
-      <h2>Hello,</h2>
+      <h1>Hello</h1>
 
       <p>
         My name is <b>Maxime</b>, I'm a <b>Software Engineer</b> from France,

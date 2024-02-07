@@ -1,12 +1,19 @@
 import Box from "@/components/system/box";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Education",
+};
 
 const Education = () => {
   return (
     <Box className="prose lg:prose-lg">
-      <h2>Education</h2>
+      <h1>Education</h1>
 
       <div>
-        <h4>Royal Melbourne Institute of Technology</h4>
+        <h4 className="underline underline-offset-2">
+          Royal Melbourne Institute of Technology
+        </h4>
 
         <figcaption>
           Master's degree in computer science - <i>July 2018 - July 2019</i>
@@ -20,7 +27,7 @@ const Education = () => {
       </div>
 
       <div>
-        <h4>Epitech Montpellier</h4>
+        <h4 className="underline underline-offset-2">Epitech Montpellier</h4>
 
         <figcaption>
           Master's degree in computer science - <i>Sept. 2019 - June 2020</i>
@@ -38,7 +45,7 @@ const Education = () => {
       </div>
 
       <div>
-        <h4>Lycée Jean Jaures</h4>
+        <h4 className="underline underline-offset-2">Lycée Jean Jaures</h4>
 
         <figcaption>
           High School Diploma in Science - <i>Sept. 2011 - June 2014</i>
