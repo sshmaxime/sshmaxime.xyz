@@ -38,4 +38,8 @@ const X = ({ children, className }: Props) => (
   <p className={cn("text-xs", className)}>{children}</p>
 );
 
-export { H1, H2, H3, H4, H5, H6, P, S, X };
+const Subtitle = ({ children, className }: Props) => (
+  <p className={cn("text-muted-foreground", className)}>{children}</p>
+);
+
+export { H1, H2, H3, H4, H5, H6, P, S, X, Subtitle };

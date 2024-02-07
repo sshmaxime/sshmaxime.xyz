@@ -3,5 +3,6 @@
     "next/core-web-vitals",
     "plugin:@tanstack/eslint-plugin-query/recommended"
   ],
-  "plugins": ["@tanstack/query"]
+  "plugins": ["@tanstack/query"],
+  "rules": { "react/no-unescaped-entities": 0 }
 }

@@ -1,11 +1,10 @@
 "use client";
 
-import { cn } from "@/utils/cn";
+import Box from "@/components/system/box";
+import { PropsWithChildren } from "react";
 import { Separator } from "../../ui/separator";
 import { Spacer } from "../spacer";
 import { H1, Subtitle } from "../typography";
-import { PropsWithChildren } from "react";
-import Box from "@/components/system/box";
 
 type Props = {
   title?: string;
