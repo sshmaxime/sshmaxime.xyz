@@ -1,4 +1,5 @@
 import Box from "@/components/system/box";
+import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,7 +17,7 @@ const Work = () => {
         </h4>
 
         <figcaption>
-          <b>@ Ledger</b> - [ Permanent position ]
+          <b>Ledger</b> - [ Permanent position ]
           <br />
           <i>July 2023 - Present</i>
         </figcaption>
@@ -24,13 +25,15 @@ const Work = () => {
         <p>...</p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
         <h4>
           <b>Founder / CTO / CEO</b>
         </h4>
 
         <figcaption>
-          <b>@ PremierStudio</b> - [ Self-Employed ]
+          <b>PremierStudio</b> - [ Self-Employed ]
           <br />
           <i>Jan. 2022 - Apr. 2023 - 1 year & 4 months</i>
         </figcaption>
@@ -47,13 +50,15 @@ const Work = () => {
         </p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
         <h4>
           <b>Software Engineer</b>
         </h4>
 
         <figcaption>
-          <b>@ Bancor</b> - [ Permanent position ]
+          <b>Bancor</b> - [ Permanent position ]
           <br />
           <i>Feb. 2021 - Jan. 2022 - 1 year</i>
         </figcaption>
@@ -70,13 +75,15 @@ const Work = () => {
         </p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
         <h4>
           <b>Software Engineer</b>
         </h4>
 
         <figcaption>
-          <b>@ Rigi.Tech </b> - [ Internship ]
+          <b>Rigi.Tech </b> - [ Internship ]
           <br />
           <i>April 2020 - Dec. 2020 - 9 months</i>
         </figcaption>
@@ -91,13 +98,15 @@ const Work = () => {
         </p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
         <h4>
           <b>Backend Engineer</b>
         </h4>
 
         <figcaption>
-          <b>@ Adagio.io </b> - [ Part-time ]
+          <b>Adagio.io </b> - [ Part-time ]
           <br />
           <i>Sep. 2019 - Mar. 2020 - 7 months</i>
         </figcaption>
@@ -115,13 +124,15 @@ const Work = () => {
         </p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
         <h4>
           <b>Software Engineer</b>
         </h4>
 
         <figcaption>
-          <b>@ toHero.io </b> - [ Internship ]
+          <b>toHero.io </b> - [ Internship ]
           <br />
           <i>Dec. 2017 - Jul. 2018 - 8 months</i>
         </figcaption>

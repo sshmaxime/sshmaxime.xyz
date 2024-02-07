@@ -1,4 +1,5 @@
 import Box from "@/components/system/box";
+import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,12 +12,16 @@ const Education = () => {
       <h1>Education</h1>
 
       <div>
-        <h4 className="underline underline-offset-2">
-          Royal Melbourne Institute of Technology
+        <h4>
+          <b>Royal Melbourne Institute of Technology</b>
         </h4>
 
+        <figcaption></figcaption>
+
         <figcaption>
-          Master's degree in computer science - <i>July 2018 - July 2019</i>
+          Master's degree in computer science
+          <br />
+          <i>July 2018 - July 2019</i>
         </figcaption>
 
         <p>
@@ -26,13 +31,17 @@ const Education = () => {
         </p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
-        <h4 className="underline underline-offset-2">Epitech Montpellier</h4>
+        <h4>
+          <b>Epitech Montpellier</b>
+        </h4>
 
         <figcaption>
-          Master's degree in computer science - <i>Sept. 2019 - June 2020</i>
+          Master & Bachelor degree in computer science
           <br />
-          Bachelor's degree in computer science - <i>Sept. 2015 - June 2018</i>
+          <i>Sept. 2015 - June 2020</i>
         </figcaption>
 
         <p>
@@ -44,11 +53,17 @@ const Education = () => {
         </p>
       </div>
 
+      <Separator className="mx-auto w-1/6" />
+
       <div>
-        <h4 className="underline underline-offset-2">Lycée Jean Jaures</h4>
+        <h4>
+          <b>Lycée Jean Jaures</b>
+        </h4>
 
         <figcaption>
-          High School Diploma in Science - <i>Sept. 2011 - June 2014</i>
+          High School Diploma in Science
+          <br />
+          <i>Sept. 2011 - June 2014</i>
         </figcaption>
       </div>
     </Box>

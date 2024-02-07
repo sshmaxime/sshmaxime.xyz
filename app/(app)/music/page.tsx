@@ -34,7 +34,6 @@ const Music = () => {
 
       <figure>
         <iframe
-          className="rounded-3xl"
           src="https://open.spotify.com/embed/artist/17iimt6EQxbPUUPRmO4GBi?utm_source=generator"
           width="100%"
           height="152"
