@@ -22,8 +22,6 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning className={`${inter.variable}`}>
-      <meta name="format-detection" content="telephone=no" />
-      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={cn("flex min-h-screen flex-col font-inter antialiased")}>
         <Providers.QueryProvider>
           <Providers.ThemeProvider>
